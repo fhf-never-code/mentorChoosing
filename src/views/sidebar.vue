@@ -24,7 +24,7 @@
              <li><router-link to="/example07-02">同步更新</router-link></li> 
              <li><router-link to="/example07-03">异步更新</router-link></li> 
              <br> 
-             <p>父子组件间传参</p>
+             <p>父子组件传参</p>
              <li><router-link to="/example08-01">父组件向子组件传参</router-link></li> 
              <br> 
              <p>axios拦截器</p>
