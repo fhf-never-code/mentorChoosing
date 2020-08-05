@@ -1,0 +1,30 @@
+登录 post方法    IP+端口/api/login
+username 用户名
+password 密码
+增加选择题 post方法    IP+端口/api/teacher/addexam
+tid老师的id
+增加选择题 post方法    IP+端口/api/teacher/addchoice
+eid试卷id
+question 问题
+selectA选项A
+selectB选项B
+selectC选项C
+selectD选项D
+answer答案
+增加判断题post方法 IP+端口/api/teacher/addjudge
+eid试卷id
+question 问题
+answer答案 对/错
+增加主观题 post方法 IP+端口/api/teacher/addsubject
+eid试卷id
+question 问题
+answer答案
+学生提交答案 post方法 IP+端口/api/student/submit
+eid试卷id
+qid题目的id
+answer题目的答案
+
+e:
+java -jar exam-0.0.1-SNAPSHOT.jar
+
+
